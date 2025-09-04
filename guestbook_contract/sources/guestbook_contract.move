@@ -64,3 +64,8 @@ public fun create_message(message: vector<u8>, ctx: &mut TxContext): Message {
         timestamp: ctx.epoch(),
     }
 }
+
+// Get the number of messages in the guestbook
+public fun get_message_count(guestbook: &GuestBook): u64 {
+    guestbook.number_of_messages
+}
