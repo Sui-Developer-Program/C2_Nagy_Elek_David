@@ -2,8 +2,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies:**
+```bash
+npm install
+```
 
+2. **Run the development server:**
 ```bash
 npm run dev
 # or
@@ -14,7 +18,12 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+![dApp](Simple_Guestbook_dApp.png)
+
+![SUI Explorer](image.png)
+
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
