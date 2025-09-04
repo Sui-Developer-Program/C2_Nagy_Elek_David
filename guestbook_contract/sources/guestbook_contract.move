@@ -1,3 +1,5 @@
+#[allow(unused)]
+
 module guestbook_contract::guestbook_contract;
 
 use std::string::{Self, String};
